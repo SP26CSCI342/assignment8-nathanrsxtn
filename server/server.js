@@ -16,9 +16,9 @@ const PORT = process.env.PORT || 3000;
 // Middleware — mount BEFORE any route.
 app.use(cors({
   origin: [
-    "http://localhost:5173",                       // dev
-    "https://your-platescout.vercel.app",          // <-- your Vercel URL (after Step D)
-    /\.vercel\.app$/,                              // optional: preview branches
+    "http://localhost:5173",
+    "https://platescout-ohf1.vercel.app",
+    /\.vercel\.app$/,
   ],
   credentials: true,
 }));
